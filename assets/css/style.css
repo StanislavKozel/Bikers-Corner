@@ -1,37 +1,57 @@
 /* nav bar and logo */
 nav {
     height: 50px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(12, 16, 238);
     text-align: right;
-    font-size: 20px;
+    font-size: 30px;
     padding: 15px 10px 15px 0px;
     letter-spacing: 2px;
-    background-color: lightgray;
+    background-color: rgb(116, 112, 112);
 }
 nav a {
     text-decoration: none;
     padding-right: 20px;
 }
 nav a:hover {
-    color: black;
+    color: rgb(248, 8, 8);
 }
-#logo {
+/* homescreen */
+.our-name {
+    height: 600px;
+    width:100%;
     color: black;
     text-align: center;
+    font-size: 400%;
+    padding-top: 150px;
 }
-.aboutus {
-    float: right;
-    height: 300px;
-    width: 50%;
-    padding: 40px 10px;
-    text-align: center;
-
-}
-
-
+/* second page */
 img {
     float:left;
     width: 50%;
-    height: 300px;
+    height: 600px;
+}
+#about {
+    float: right;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+}
+/* headers and paragraphs */
+div > h2 {
+    font-size: 350%;
+    color: orange;
+    padding: 50px 50px 25px 50px;
+}
+hr {
+    color: black;
+    width: 50%;
+    border-width: 2px;
+
+
+}
+div > p {
+    text-align: center;
+    font-size:xx-large;
+    width: 50%;
+    padding: 10% 25% 0 25%;
 }
