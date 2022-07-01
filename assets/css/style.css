@@ -22,7 +22,7 @@ h2 {
 /* menu bar */
 .nav-bar {
     width: 100%;
-    height: 40px; 
+    height: 50px; 
     text-align: right;
     font-size: 20px;
     letter-spacing: 4px;
@@ -32,6 +32,7 @@ h2 {
 nav a {
     display: inline-block;
     text-decoration: none;
+    margin-top: 10px;
     margin-right: 50px;
     color: rgb(0, 0, 0);
 }
@@ -53,7 +54,7 @@ nav a:hover {
 #hero-image{
     height: 600px;
     width: 100%;
-    background: url(../image/hero-image.jpg);
+    background: url(../image/pexels-nicholas-dias-2116475.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -63,18 +64,18 @@ nav a:hover {
     font-family: Source Sans Pro, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-weight: 500;
+    
 
     width: 800px;
-    height: 300px;
+    height: 400px;
 
     padding-top: 40px;
-    padding-left: 250px;
+    padding-left: 200px;
     
     background-color: none;
 
     bottom: 50px;
-    right: 450px;
+    right: 550px;
 
     position: absolute;
 }
