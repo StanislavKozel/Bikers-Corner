@@ -67,14 +67,14 @@ nav a:hover {
     
 
     width: 800px;
-    height: 400px;
+    height: 390px;
 
     padding-top: 40px;
     padding-left: 200px;
     
     background-color: none;
 
-    bottom: 50px;
+    bottom: 40px;
     right: 550px;
 
     position: absolute;
@@ -82,30 +82,52 @@ nav a:hover {
 #hero-logo > h3 {
     margin-left: 150px;
 }
-/* second section */
+/* about us section */
 #about {
-    float: left;
-    text-align: center;
-    width: 50%;
-    height: 180px;
-
+    height: 600px;
 }
-
-/* footer */
-#footer {
+#left {
+    padding-top: 50px;
+    width: 50%;
+    float: left;
+}
+#right {
+    padding-top: 50px;
+    width: 50%;
+    float: right;
+}
+/* visit us section */
+#info {
+    height: 600px;
+}
+#visit-us {
+    padding-top: 50px;
     text-align: center;
-    width: 100%;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: x-large;
+    letter-spacing: 4px;
+}
+/* footer */
+#footer { 
     height: 40px;
+    width: 100%;
+    text-align: center;
     background-color: rgb(116, 112, 112);
     font-size: 20px;
 }
 footer a {
     display:inline-block;
     text-decoration: none;
+    margin-top: 10px;
+    margin-right: 15px;
 }
 footer > p {
-    text-align: left;
+    display: block;
+    float: left;
+    margin-top: 10px;
     text-transform: uppercase;
     color:rgb(255, 255, 255);
     font-size: 20px;
+
 }
