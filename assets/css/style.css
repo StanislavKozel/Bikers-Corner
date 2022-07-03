@@ -220,3 +220,14 @@ iframe {
 #photos > img {
     width: 100%;
 }
+/* sign up form */
+#h2-form {
+    text-align: center;
+    font-family: Source Sans Pro, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(59, 59, 59);
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
