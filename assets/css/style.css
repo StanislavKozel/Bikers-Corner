@@ -48,7 +48,6 @@ nav a:hover {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 #hero-image{
@@ -115,7 +114,10 @@ hr {
     line-height: 30px;
     clear: both;
     margin-bottom: 60px;
-    margin-right: 25%;
+    margin-left: 25%;
+}
+.right-side ul {
+    list-style: none;
 }
 #sign-up {
     display: inline-block;
@@ -123,6 +125,7 @@ hr {
     color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: none;
+    text-align: center;
     padding: 5px 20px;
     border-radius: 5px;
 }
@@ -196,4 +199,24 @@ iframe {
 }
 .social-media :hover {
     color: rgb(0, 0, 255);
+}
+/* gallery stylesl */
+#h2-gallery {
+    text-align: center;
+    font-family: Source Sans Pro, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(59, 59, 59);
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+#photos > img {
+    width: 100%;
 }
