@@ -124,9 +124,10 @@ hr {
     text-align: center;
     text-decoration: none;
     padding: 5px 20px;
+    border-radius: 5px;
 }
 #sign-up:hover {
-    background-color: blue;
+    background-color: rgb(0, 0, 255);
 }
 /* visit us section */
 #info {
