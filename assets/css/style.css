@@ -96,6 +96,38 @@ nav a:hover {
     width: 50%;
     float: right;
 }
+.left-side {
+    width: 50%;
+    text-align: center;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 60px;
+    margin-left: 25%;
+}
+hr {
+    border-top: 1px solid black;
+    width: 100%;
+    margin: 5px 0;
+}
+.right-side {
+    width: 50%;
+    text-align: center;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 60px;
+    margin-right: 25%;
+}
+#sign-up {
+    display: inline-block;
+    background-color: rgb(133, 133, 133);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+#sign-up:hover {
+    background-color: blue;
+}
 /* visit us section */
 #info {
     height: 600px;
@@ -104,30 +136,50 @@ nav a:hover {
     padding-top: 50px;
     text-align: center;
     text-transform: capitalize;
-    text-decoration: underline;
     font-size: x-large;
     letter-spacing: 4px;
 }
+#map {
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+#address {
+    padding-top: 50px;
+    width: 50%;
+    height: 400px;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+}
 /* footer */
+#bottom-page {
+   height: 60px;
+}
 #footer { 
-    height: 40px;
+    height: 60px;
     width: 100%;
     text-align: center;
     background-color: rgb(116, 112, 112);
     font-size: 20px;
+}
+footer > p {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+
 }
 footer a {
     display:inline-block;
     text-decoration: none;
     margin-top: 10px;
     margin-right: 15px;
-}
-footer > p {
-    display: block;
-    float: left;
-    margin-top: 10px;
-    text-transform: uppercase;
-    color:rgb(255, 255, 255);
-    font-size: 20px;
-
 }
